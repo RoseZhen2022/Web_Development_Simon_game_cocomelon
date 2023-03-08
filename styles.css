@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  background-color: #539165;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid white;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: #F7C04A;
+  opacity: 0.8;
+}
+
+.red {
+  background:url("images/jojo.png");
+}
+
+.green {
+  background:url("images/yoyo.jpg");
+}
+
+.blue {
+  background:url("images/bella.png");
+}
+
+.yellow {
+  background:url("images/tom.png");
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
